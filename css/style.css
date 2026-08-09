@@ -16,7 +16,7 @@ a { color:inherit; text-decoration:none; }
   width: auto;
 }
 nav { display:flex; gap:25px; font-size:26px; }
-nav a { font-size:16px; }
+nav a { font-size:15px; }
 nav a { color:var(--muted); }
 nav a.active, nav a:hover { color:var(--ink); }
 .menu-toggle { display:none; border:0; background:none; font-size:17px; }
