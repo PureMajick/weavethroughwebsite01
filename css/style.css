@@ -26,6 +26,8 @@ main { min-height:75vh; }
 .eyebrow { font-size:20px; letter-spacing:.18em; font-weight:700; color:var(--muted); margin:0 0 20px; }
 h1 { font-size:clamp(48px,7vw,92px); line-height:1.02; letter-spacing:-.045em; max-width:1000px; margin:0 0 30px; }
 .hero h1 span { font-weight:400; }
+.page-hero { padding:10vw 8vw 8vw; }
+.insights-wrapper { margin-left:8vw; margin-right:8vw; }
 .page-hero h1 { font-size:clamp(46px,6vw,76px); }
 .intro { font-size:20px; line-height:1.55; max-width:720px; color:#405168; }
 .button { display:inline-block; margin-top:25px; padding:13px 22px; background:var(--ink); color:white; font-size:13px; letter-spacing:.05em; width:max-content; }
