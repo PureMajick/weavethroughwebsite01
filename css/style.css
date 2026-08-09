@@ -34,6 +34,7 @@ h1 { font-size:clamp(48px,7vw,92px); line-height:1.02; letter-spacing:-.045em; m
 .section p { max-width:760px; color:#526176; font-size:20px; }
 .grid { padding:0 8vw 8vw; display:grid; grid-template-columns:repeat(3,1fr); gap:1px; background:var(--line); }
 .grid article { background:var(--white); padding:40px; min-height:220px; }
+.grid article img { width:100%; height:auto; display:block; margin-bottom:20px; }
 .grid h3 { font-size:22px; margin-top:0; }
 .grid p { color:var(--muted); }
 .site-footer { border-top:1px solid var(--line); padding:35px 8vw; display:flex; justify-content:space-between; gap:30px; color:var(--muted); font-size:12px; }
