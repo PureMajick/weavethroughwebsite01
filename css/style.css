@@ -50,6 +50,7 @@ h1 { font-size:clamp(48px,7vw,92px); line-height:1.02; letter-spacing:-.045em; m
   nav { display:none; position:absolute; top:100px; left:0; right:0; background:white; flex-direction:column; padding:25px 8vw; border-bottom:1px solid var(--line); }
   nav.open { display:flex; }
   .menu-toggle { display:block; }
+  .site-header { padding:0 3vw; }
   .grid { grid-template-columns:1fr; }
   .insights-wrapper { grid-template-columns:1fr; }
   .site-footer { flex-direction:column; }
