@@ -22,7 +22,7 @@ nav a.active, nav a:hover { color:var(--primary); }
 .nav-social { display:flex; align-items:center; flex-shrink:0; }
 .nav-social a img { height:28px; width:28px; }
 .menu-toggle { display:none; border:0; background:none; font-size:17px; }
-.menu-toggle { display:none; border:0; background:none; font-size:17px; }
+.menu-toggle { display:none; border:0; background:none; font-size:32px; cursor:pointer; padding:8px 12px; }
 main { min-height:75vh; }
 .hero, .page-hero { padding:10vw 8vw 8vw; max-width:1250px; }
 .hero { min-height:70vh; display:flex; flex-direction:column; justify-content:center; }
