@@ -45,7 +45,7 @@
     <input type="text" id="name" name="name" required style="width:100%; padding:12px; border:1px solid #dce3eb; font-size:16px;">
   </div>
   <div style="margin-bottom:20px;">
-    <label for="email" style="display:block; margin-bottom:8px; font-weight:bold;">Email</label>
+    <label for="email" style="display:block; margin-bottom:8px; font-weight:bold;">Work Email</label>
     <input type="email" id="email" name="email" required style="width:100%; padding:12px; border:1px solid #dce3eb; font-size:16px;">
   </div>
   <div style="margin-bottom:20px;">
@@ -53,10 +53,27 @@
     <input type="tel" id="phone" name="phone" required style="width:100%; padding:12px; border:1px solid #dce3eb; font-size:16px;">
   </div>
   <div style="margin-bottom:20px;">
-    <label for="message" style="display:block; margin-bottom:8px; font-weight:bold;">Message</label>
-    <textarea id="message" name="message" rows="6" required style="width:100%; padding:12px; border:1px solid #dce3eb; font-size:16px; font-family:Arial;"></textarea>
+    <label for="company" style="display:block; margin-bottom:8px; font-weight:bold;">Company / Organisation</label>
+    <input type="text" id="company" name="company" required style="width:100%; padding:12px; border:1px solid #dce3eb; font-size:16px;">
   </div>
-  <button type="submit" style="background:#3CB4C2; color:white; padding:13px 30px; border:none; font-size:14px; cursor:pointer;">Send Message</button>
+  <div style="margin-bottom:20px;">
+    <label for="role" style="display:block; margin-bottom:8px; font-weight:bold;">Your Role</label>
+    <select id="role" name="role" required style="width:100%; padding:12px; border:1px solid #dce3eb; font-size:16px;">
+      <option value="">Select your role</option>
+      <option value="Founder / Promoter">Founder / Promoter</option>
+      <option value="CXO / Business Head">CXO / Business Head</option>
+      <option value="Marketing Head">Marketing Head</option>
+      <option value="Brand / Communications">Brand / Communications</option>
+      <option value="Media / Agency">Media / Agency</option>
+      <option value="Strategy / Consulting">Strategy / Consulting</option>
+      <option value="Other">Other</option>
+    </select>
+  </div>
+  <div style="margin-bottom:20px;">
+    <label for="message" style="display:block; margin-bottom:8px; font-weight:bold;">Message (Optional)</label>
+    <textarea id="message" name="message" rows="6" style="width:100%; padding:12px; border:1px solid #dce3eb; font-size:16px; font-family:Arial;"></textarea>
+  </div>
+  <button type="submit" style="background:#3CB4C2; color:white; padding:13px 30px; border:none; font-size:14px; cursor:pointer;">Start a Conversation</button>
 </form>
 </section></main>
 <footer class="site-footer">
