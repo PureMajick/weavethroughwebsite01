@@ -74,6 +74,12 @@ h1 { font-size:clamp(48px,7vw,92px); line-height:1.02; letter-spacing:-.045em; m
   .grid { grid-template-columns:1fr; }
   .insights-wrapper { grid-template-columns:1fr; }
   .site-footer { flex-direction:column; }
+  section[style*="grid-template-columns:1fr 1fr"] {
+    display: block !important;
+  }
+  section[style*="grid-template-columns:1fr 1fr"] > div {
+    margin-bottom: 30px;
+  }
 }
 .insights-wrapper { display:grid; grid-template-columns:60% 40%; gap:40px; }
 .insights-wrapper h2 { margin:0 0 20px 0; color:var(--primary); }
