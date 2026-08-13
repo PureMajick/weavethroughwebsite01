@@ -26,7 +26,6 @@ nav a.active, nav a:hover { color:var(--primary); }
 main { min-height:75vh; }
 .hero, .page-hero { 
   padding:10vw 8vw 8vw; 
-  max-width:1250px; 
   background-image: 
     linear-gradient(120deg, rgba(60, 180, 194, 0.03) 25%, transparent 25%),
     linear-gradient(240deg, rgba(60, 180, 194, 0.03) 25%, transparent 25%),
