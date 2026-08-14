@@ -26,7 +26,7 @@ nav a.active, nav a:hover { color:var(--primary); }
 main { min-height:75vh; }
 .hero, .page-hero { 
   padding:10vw 8vw 8vw; 
-  background-image: url('images/Website%20Hero%20Banner%20Design%20Web.jpg');
+  background-image: url('images/Website-Hero-Banner-Design-Web.jpg');
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -35,7 +35,7 @@ main { min-height:75vh; }
 
 @media(max-width:900px) {
   .hero, .page-hero {
-    background-image: url('images/Website%20Hero%20Banner%20Design%20Mobile.jpg');
+    background-image: url('images/WWebsite-Hero-Banner-Design-Mobile.jpg');
     background-attachment: scroll;
   }
 }
