@@ -24,7 +24,7 @@ nav a.active, nav a:hover { color:var(--primary); }
 .menu-toggle { display:none; border:0; background:none; font-size:17px; }
 .menu-toggle { display:none; border:0; background:none; font-size:32px; cursor:pointer; padding:8px 12px; }
 main { min-height:75vh; }
-..hero, .page-hero { 
+.hero, .page-hero { 
   padding:10vw 8vw 8vw; 
   background-image: url('/images/Website-Hero-Banner-Design-Web.jpg');
   background-size: cover;
